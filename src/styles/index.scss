@@ -17,7 +17,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: $gap;
-  width: $block-size * 7 + 6px;
+  width: $block-size * 7 + $gap * 6;
 
   &__day {
     box-sizing: border-box;
